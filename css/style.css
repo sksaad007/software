@@ -1,0 +1,249 @@
+/*header CSS START*/
+
+body:not(.sidebar-mini-md) .main-header {
+    transition: margin-left .3s ease-in-out;
+    margin-left: 250px;
+}
+form.example input[type=text]     
+
+{   padding: 5px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    margin-top: 2px;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 7px 0px 0px 7px;
+    margin-left: 5px;
+}
+form.example button {
+    float: left;
+    width: 15%;
+    padding: 5px;
+    background: #f1f1f1;
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-top: 2px;
+    border-radius: 0px 7px 7px 0px;
+    border-left: none;
+}
+
+/*HEADER CSS END*/
+
+/*LEFT SIDE BAR START*/
+.sidebar {
+    z-index: 1;
+    top: 0;
+    background: #2f323a;
+    margin-top: 0px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 230px;
+    height: 100vh;
+    transition: 0.5s;
+    transition-property: left;
+    overflow-y: auto;
+}
+
+.profile_info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #555;
+    border-top: 2px solid #555;
+    
+}
+
+.sidebar .profile_info .profile_image {
+    width: 70px;
+    border-radius: 35px;
+    margin-left: 6px;
+    margin-top: -45px;
+}
+.sidebar .profile_info h4 {
+    color: #ccc;
+    margin-top: 10px;
+    margin-left: 5px;
+    line-height: 22px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.sidebar a {
+    color: #ccc;
+    display: block;
+    width: 95%;
+    margin-left: 8px;
+    margin: 3px;
+    line-height: 30px;
+    border-radius: 7px;
+    text-decoration: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.sidebar a:hover{
+  background: #007bff;
+  color:#ffffff;
+  text-decoration:none;
+}
+.sp{
+    padding: 10px;
+}
+.sidebar i {
+    padding: 10px;
+    font-size: large;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+span.user-status i {
+    font-size: 13px;
+    margin-right: -10px;
+    color: #5cb85c;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+span.user-status span {
+    margin-left: 5px;
+}
+
+label #sidebar_btn{
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 300px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+label #sidebar_btn:hover{
+  color: #19B3D3;
+}
+.left_area h3 {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 900;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.left_area span {
+    color: #19B3D3;
+}
+i.right.fas.fa-angle-right {
+    font-size: medium;
+    margin-right: 0;
+    margin-left: 70px;
+}
+a.active{
+
+    background: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+}
+.left_area1 h3 {
+    color: #dfdfdf;
+    text-decoration: none;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+/*LEFT SIDE BAR END*/
+
+.card {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    right: 0;
+    left:0;
+    margin-left: 242px;
+    margin-right: 12px;
+    border-radius: 10px;
+}
+.card-header:first-child {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.c1{
+    background-color:#007bff;
+    color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+h4.s1{margin-top: 0;
+    margin-bottom: 00px;
+}
+
+.test + .tooltip > .tooltip-inner {
+    max-width: 248px;
+    padding: 3px 5px;
+    font-size: 15px;
+    color: #dbdbdb;
+    text-align: center;
+    background-color: #000;
+    border-radius: 5px;
+}
+.test1 + .tooltip > .tooltip-inner {
+    max-width: 190px;
+    padding: 3px 5px;
+    font-size: 15px;
+    color: #dbdbdb;
+    text-align: center;
+    background-color: #000;
+    border-radius: 5px;
+}
+span.cp1 {
+    background: #fa8e4f;
+    position: fixed;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+    margin-top: 1px;
+}
+
+
+span.cp2 {
+    background: #fa4f76;
+    position: fixed;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+    margin-top: 1px;
+}
+
+
+span.cp3 {
+    background: #5cb85c;
+    position: fixed;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+    margin-top: 1px;
+}
+
+span.cp4 {
+    background: #5bc0de;
+    position: fixed;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+    margin-top: 1px;
+}
